@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* parte titolo e testo */
 body{
     padding-top: 50px;
 }
@@ -19,4 +20,38 @@ h1{
     font-family: 'Rowdies', cursive;
     padding-bottom: 50px;
     color: red;
+}
+/* parte presentazione */
+.container{
+    padding-top: 30px;
+}
+img{
+    height: 100px;
+    float: left;
+    padding-right: 10px;
+    display: block;
+}
+.box{
+    margin: 30px auto;
+    float: left;
+    width: calc(100% /3 - 30px);
+    margin: 15px;
+    background-color: rgba(15, 14, 23, 255);
+    color: white;
+}
+.clearfix::after{
+    content: ;
+    clear: both;
+    display: block;
+}
+small{
+    display: block;
+}
+h4, p, small{
+    padding-top: 10px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+small:last-of-type{
+    color: aqua;
 }
