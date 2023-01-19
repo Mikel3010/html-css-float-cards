@@ -1,0 +1,22 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 50px;
+}
+section{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.pres{
+    text-align: center;
+}
+h1{
+    font-family: 'Rowdies', cursive;
+    padding-bottom: 50px;
+    color: red;
+}
